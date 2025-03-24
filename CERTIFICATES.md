@@ -1,8 +1,8 @@
-To run a Fast Downward with certificate generation, you need to have CUDD
-installed. If you set up the environment variable CUDD_DIR, cmake should find
-it.
+# Installation
 
-Step by step guide:
+To run a Fast Downward with certificate generation, you need to have CUDD
+installed and have the environment variable CUDD_DIR pointing to your
+installation. To install CUDD, perform the following steps:
 
 (In what follows \<path-to-cudd\> is the path where you want CUDD to be
 installed to)
@@ -26,3 +26,7 @@ library with dddmp and c++-wrapper:
 
 5. Set the environment variable CUDD_DIR to \<path-to-cudd\> (or change the
 Makefile, adding the path in place of the variable).
+
+# Caveats
+
+1.
