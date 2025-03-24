@@ -9,7 +9,7 @@
 #  find_package(CUDD)
 #
 # The location of CUDD can be specified using the environment variable
-# or cmake parameter DOWNWARD_CUDD_ROOT.
+# or cmake parameter CUDD_DIR
 #
 # Note that the standard FIND_PACKAGE features are supported
 # (QUIET, REQUIRED, etc.).
@@ -25,7 +25,7 @@ set_target_properties(cudd::cudd PROPERTIES
 
 find_path(CUDD_INCLUDE_DIRS
     NAMES cudd.h
-    HINTS $ENV{DOWNWARD_CUDD_ROOT}
+    HINTS $ENV{CUDD_DIR}
     PATH_SUFFIXES include
     NO_DEFAULT_PATH
 )
@@ -33,7 +33,7 @@ target_include_directories(cudd::cudd INTERFACE ${CUDD_INCLUDE_DIRS})
 
 find_library(CUDD_LIBRARY
     NAMES cudd
-    HINTS $ENV{DOWNWARD_CUDD_ROOT}
+    HINTS $ENV{CUDD_DIR}
     PATH_SUFFIXES lib
     NO_DEFAULT_PATH
 )

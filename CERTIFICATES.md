@@ -13,16 +13,15 @@ mirror https://github.com/ivmai/cudd)
 3. In the folder cudd-release call the following steps to get the 64-bit
 library with dddmp and c++-wrapper:
 
-        ./configure --prefix=\<path-to-cudd\> --enable-shared --enable-dddmp --enable-obj --enable-static "CFLAGS=-D_FILE_OFFSET_BITS=64" "CXXFLAGS=-D_FILE_OFFSET_BITS=64"
+        ./configure --prefix=<path-to-cudd> --enable-shared --enable-dddmp --enable-obj --enable-static "CFLAGS=-D_FILE_OFFSET_BITS=64" "CXXFLAGS=-D_FILE_OFFSET_BITS=64"
         && make
         && make install
 
 4. Move the following two header files config.h and util/util.h to \<path-to-cudd\>/include:
 
-        cp config.h \<path-to-cudd\>/include
-        && cp util/util.h \<path-to-cudd\>/include
+        cp config.h <path-to-cudd>/include
+        && cp util/util.h <path-to-cudd>/include
 
-  (I don't know why this is necessary, but else the dddmp library complains...)
+    (I don't know why this is necessary, but else the dddmp library complains...)
 
-5. Set the environment variable CUDD_DIR to \<path-to-cudd\> (or change the
-Makefile, adding the path in place of the variable).
+5. Set the environment variable CUDD_DIR to <path-to-cudd>.
