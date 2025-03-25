@@ -27,6 +27,32 @@ library with dddmp and c++-wrapper:
 5. Set the environment variable CUDD_DIR to \<path-to-cudd\> (or change the
 Makefile, adding the path in place of the variable).
 
-# Caveats
+# Implementation notes
 
-1.
+1. **accessing the heuristic**:
+We somehow need access to the heuristics to get certificates from them. While
+A\* knows about its heuristic, general eager search does not. The unsolvability
+certificates are designed to work for any eager search (although I only ever
+testes A\* I think), thus they need to go through the open lists to get to the
+heuristics, meaning the open lists have functions related to unsolvability
+certificates. Optimality certificates on the other hand only work on A\*, which
+is why we can access the heuristic directly and don't need to add any functions
+to the open list.
+
+1. **blind heuristic**: The optimality certificates need the blind heuristic to
+always return 0 since they otherwise don't have a justification for the
+heuristic value (goal cost 0 is trivially valid). This codebase thus altered
+the blind heuristic to always return 0. *Note: this also holds for
+configurations that don't compute optimality certificates.*
+
+1. **when are certificates computed**
+    - unsolvability: Most work is done after search is completed, but dead-ends
+    are always processed right away; meaning we have overhead during the
+    search. Furthermore, the inductive unsolvability certificates also write
+    into the hint file on every expansion (if not using the setting
+    `certificates_nohints`).
+    - optimality: There is no overhead during search, the entire certificate is
+    computed and written at the end. This is because we only know at the end for
+    which states we need a proof from the heuristic (the ones in open). However,
+    this also means that all those states need to reevaluate the heuristic at
+    the end, leading to more overhead.
