@@ -47,11 +47,15 @@ CertificateManager::CertificateManager(
     for (int cost : sorted_action_costs) {
         sorted_actions.push_back({define_action(actions_by_cost[cost]), cost});
     }
-    SetExpression action_union = sorted_actions[0].first;
-    for (size_t i = 1; i < sorted_actions.size(); ++i) {
-        action_union = define_action_set_union(action_union, sorted_actions[i].first);
+    if (sorted_actions.size() > 0) {
+        SetExpression action_union = sorted_actions[0].first;
+        for (size_t i = 1; i < sorted_actions.size(); ++i) {
+            action_union = define_action_set_union(action_union, sorted_actions[i].first);
+        }
+        all_actions_contained = make_statement(get_allactions(), action_union, "b5");
+    } else {
+        all_actions_contained = Judgment();
     }
-    all_actions_contained = make_statement(get_allactions(), action_union, "b5");
     empty_dead = Judgment(apply_dead_rule(get_emptyset().id, "ed", {}));
 }
 
