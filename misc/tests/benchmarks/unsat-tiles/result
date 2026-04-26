@@ -1,0 +1,2215 @@
+BEGIN WITH 3-3-puzzle-problem-100-01.pddl
+4,6c4,6
+< ;; 7 5 8  ||  0 1 2
+< ;; 2 4 1  ||  3 4 5
+< ;; 6 0 3  ||  6 7 8
+---
+> ;; 1 2 5  ||  0 1 2
+> ;; 6 4 7  ||  3 4 5
+> ;; 0 8 3  ||  6 7 8
+8c8
+< (define (problem p3-3-puzzle-problem-100-1390833173302856514)
+---
+> (define (problem 3-3-puzzle-problem-100-1390833173294931248)
+36,39c36,39
+<     (at t7 p1 p1)
+<     (at t5 p2 p1)
+<     (at t8 p3 p1)
+<     (at t2 p1 p2)
+---
+>     (at t1 p1 p1)
+>     (at t2 p2 p1)
+>     (at t5 p3 p1)
+>     (at t6 p1 p2)
+41,43c41,43
+<     (at t1 p3 p2)
+<     (at t6 p1 p3)
+<     (blank p2 p3)
+---
+>     (at t7 p3 p2)
+>     (blank p1 p3)
+>     (at t8 p2 p3)
+DONE with 3-3-puzzle-problem-100-01.pddl
+------------------------------------------------------------
+BEGIN WITH 3-3-puzzle-problem-100-02.pddl
+8c8
+< (define (problem p3-3-puzzle-problem-100-1390833173302856514)
+---
+> (define (problem 3-3-puzzle-problem-100-1390833173302856514)
+DONE with 3-3-puzzle-problem-100-02.pddl
+------------------------------------------------------------
+BEGIN WITH 3-3-puzzle-problem-100-03.pddl
+4,6c4,6
+< ;; 7 5 8  ||  0 1 2
+< ;; 2 4 1  ||  3 4 5
+< ;; 6 0 3  ||  6 7 8
+---
+> ;; 0 3 2  ||  0 1 2
+> ;; 8 5 4  ||  3 4 5
+> ;; 1 6 7  ||  6 7 8
+8c8
+< (define (problem p3-3-puzzle-problem-100-1390833173302856514)
+---
+> (define (problem 3-3-puzzle-problem-100-1390833173309616430)
+36,44c36,44
+<     (at t7 p1 p1)
+<     (at t5 p2 p1)
+<     (at t8 p3 p1)
+<     (at t2 p1 p2)
+<     (at t4 p2 p2)
+<     (at t1 p3 p2)
+<     (at t6 p1 p3)
+<     (blank p2 p3)
+<     (at t3 p3 p3)
+---
+>     (blank p1 p1)
+>     (at t3 p2 p1)
+>     (at t2 p3 p1)
+>     (at t8 p1 p2)
+>     (at t5 p2 p2)
+>     (at t4 p3 p2)
+>     (at t1 p1 p3)
+>     (at t6 p2 p3)
+>     (at t7 p3 p3)
+DONE with 3-3-puzzle-problem-100-03.pddl
+------------------------------------------------------------
+BEGIN WITH 3-3-puzzle-problem-100-04.pddl
+4,6c4,6
+< ;; 7 5 8  ||  0 1 2
+< ;; 2 4 1  ||  3 4 5
+< ;; 6 0 3  ||  6 7 8
+---
+> ;; 7 8 3  ||  0 1 2
+> ;; 5 1 0  ||  3 4 5
+> ;; 6 2 4  ||  6 7 8
+8c8
+< (define (problem p3-3-puzzle-problem-100-1390833173302856514)
+---
+> (define (problem 3-3-puzzle-problem-100-1390833173316488526)
+37,41c37,41
+<     (at t5 p2 p1)
+<     (at t8 p3 p1)
+<     (at t2 p1 p2)
+<     (at t4 p2 p2)
+<     (at t1 p3 p2)
+---
+>     (at t8 p2 p1)
+>     (at t3 p3 p1)
+>     (at t5 p1 p2)
+>     (at t1 p2 p2)
+>     (blank p3 p2)
+43,44c43,44
+<     (blank p2 p3)
+<     (at t3 p3 p3)
+---
+>     (at t2 p2 p3)
+>     (at t4 p3 p3)
+DONE with 3-3-puzzle-problem-100-04.pddl
+------------------------------------------------------------
+BEGIN WITH 3-3-puzzle-problem-100-05.pddl
+4,6c4,6
+< ;; 7 5 8  ||  0 1 2
+< ;; 2 4 1  ||  3 4 5
+< ;; 6 0 3  ||  6 7 8
+---
+> ;; 2 0 7  ||  0 1 2
+> ;; 6 3 8  ||  3 4 5
+> ;; 5 4 1  ||  6 7 8
+8c8
+< (define (problem p3-3-puzzle-problem-100-1390833173302856514)
+---
+> (define (problem 3-3-puzzle-problem-100-1390833173323132671)
+36,44c36,44
+<     (at t7 p1 p1)
+<     (at t5 p2 p1)
+<     (at t8 p3 p1)
+<     (at t2 p1 p2)
+<     (at t4 p2 p2)
+<     (at t1 p3 p2)
+<     (at t6 p1 p3)
+<     (blank p2 p3)
+<     (at t3 p3 p3)
+---
+>     (at t2 p1 p1)
+>     (blank p2 p1)
+>     (at t7 p3 p1)
+>     (at t6 p1 p2)
+>     (at t3 p2 p2)
+>     (at t8 p3 p2)
+>     (at t5 p1 p3)
+>     (at t4 p2 p3)
+>     (at t1 p3 p3)
+DONE with 3-3-puzzle-problem-100-05.pddl
+------------------------------------------------------------
+BEGIN WITH 3-3-puzzle-problem-100-06.pddl
+4,6c4,6
+< ;; 7 5 8  ||  0 1 2
+< ;; 2 4 1  ||  3 4 5
+< ;; 6 0 3  ||  6 7 8
+---
+> ;; 0 6 3  ||  0 1 2
+> ;; 2 7 1  ||  3 4 5
+> ;; 4 5 8  ||  6 7 8
+8c8
+< (define (problem p3-3-puzzle-problem-100-1390833173302856514)
+---
+> (define (problem 3-3-puzzle-problem-100-1390833173329687552)
+36,38c36,38
+<     (at t7 p1 p1)
+<     (at t5 p2 p1)
+<     (at t8 p3 p1)
+---
+>     (blank p1 p1)
+>     (at t6 p2 p1)
+>     (at t3 p3 p1)
+40c40
+<     (at t4 p2 p2)
+---
+>     (at t7 p2 p2)
+42,44c42,44
+<     (at t6 p1 p3)
+<     (blank p2 p3)
+<     (at t3 p3 p3)
+---
+>     (at t4 p1 p3)
+>     (at t5 p2 p3)
+>     (at t8 p3 p3)
+DONE with 3-3-puzzle-problem-100-06.pddl
+------------------------------------------------------------
+BEGIN WITH 3-3-puzzle-problem-100-07.pddl
+4,6c4,6
+< ;; 7 5 8  ||  0 1 2
+< ;; 2 4 1  ||  3 4 5
+< ;; 6 0 3  ||  6 7 8
+---
+> ;; 2 7 4  ||  0 1 2
+> ;; 3 0 1  ||  3 4 5
+> ;; 6 8 5  ||  6 7 8
+8c8
+< (define (problem p3-3-puzzle-problem-100-1390833173302856514)
+---
+> (define (problem 3-3-puzzle-problem-100-1390833173336417208)
+36,40c36,40
+<     (at t7 p1 p1)
+<     (at t5 p2 p1)
+<     (at t8 p3 p1)
+<     (at t2 p1 p2)
+<     (at t4 p2 p2)
+---
+>     (at t2 p1 p1)
+>     (at t7 p2 p1)
+>     (at t4 p3 p1)
+>     (at t3 p1 p2)
+>     (blank p2 p2)
+43,44c43,44
+<     (blank p2 p3)
+<     (at t3 p3 p3)
+---
+>     (at t8 p2 p3)
+>     (at t5 p3 p3)
+DONE with 3-3-puzzle-problem-100-07.pddl
+------------------------------------------------------------
+BEGIN WITH 3-3-puzzle-problem-100-08.pddl
+4,6c4,6
+< ;; 7 5 8  ||  0 1 2
+< ;; 2 4 1  ||  3 4 5
+< ;; 6 0 3  ||  6 7 8
+---
+> ;; 0 2 7  ||  0 1 2
+> ;; 3 1 4  ||  3 4 5
+> ;; 6 8 5  ||  6 7 8
+8c8
+< (define (problem p3-3-puzzle-problem-100-1390833173302856514)
+---
+> (define (problem 3-3-puzzle-problem-100-1390833173343941124)
+36,41c36,41
+<     (at t7 p1 p1)
+<     (at t5 p2 p1)
+<     (at t8 p3 p1)
+<     (at t2 p1 p2)
+<     (at t4 p2 p2)
+<     (at t1 p3 p2)
+---
+>     (blank p1 p1)
+>     (at t2 p2 p1)
+>     (at t7 p3 p1)
+>     (at t3 p1 p2)
+>     (at t1 p2 p2)
+>     (at t4 p3 p2)
+43,44c43,44
+<     (blank p2 p3)
+<     (at t3 p3 p3)
+---
+>     (at t8 p2 p3)
+>     (at t5 p3 p3)
+DONE with 3-3-puzzle-problem-100-08.pddl
+------------------------------------------------------------
+BEGIN WITH 3-3-puzzle-problem-100-09.pddl
+4,6c4,6
+< ;; 7 5 8  ||  0 1 2
+< ;; 2 4 1  ||  3 4 5
+< ;; 6 0 3  ||  6 7 8
+---
+> ;; 3 4 1  ||  0 1 2
+> ;; 6 8 5  ||  3 4 5
+> ;; 7 2 0  ||  6 7 8
+8c8
+< (define (problem p3-3-puzzle-problem-100-1390833173302856514)
+---
+> (define (problem 3-3-puzzle-problem-100-1390833173350542827)
+36,44c36,44
+<     (at t7 p1 p1)
+<     (at t5 p2 p1)
+<     (at t8 p3 p1)
+<     (at t2 p1 p2)
+<     (at t4 p2 p2)
+<     (at t1 p3 p2)
+<     (at t6 p1 p3)
+<     (blank p2 p3)
+<     (at t3 p3 p3)
+---
+>     (at t3 p1 p1)
+>     (at t4 p2 p1)
+>     (at t1 p3 p1)
+>     (at t6 p1 p2)
+>     (at t8 p2 p2)
+>     (at t5 p3 p2)
+>     (at t7 p1 p3)
+>     (at t2 p2 p3)
+>     (blank p3 p3)
+DONE with 3-3-puzzle-problem-100-09.pddl
+------------------------------------------------------------
+BEGIN WITH 3-3-puzzle-problem-100-10.pddl
+4,6c4,6
+< ;; 7 5 8  ||  0 1 2
+< ;; 2 4 1  ||  3 4 5
+< ;; 6 0 3  ||  6 7 8
+---
+> ;; 8 7 0  ||  0 1 2
+> ;; 3 4 1  ||  3 4 5
+> ;; 5 6 2  ||  6 7 8
+8c8
+< (define (problem p3-3-puzzle-problem-100-1390833173302856514)
+---
+> (define (problem 3-3-puzzle-problem-100-1390833173357197494)
+36,39c36,39
+<     (at t7 p1 p1)
+<     (at t5 p2 p1)
+<     (at t8 p3 p1)
+<     (at t2 p1 p2)
+---
+>     (at t8 p1 p1)
+>     (at t7 p2 p1)
+>     (blank p3 p1)
+>     (at t3 p1 p2)
+42,44c42,44
+<     (at t6 p1 p3)
+<     (blank p2 p3)
+<     (at t3 p3 p3)
+---
+>     (at t5 p1 p3)
+>     (at t6 p2 p3)
+>     (at t2 p3 p3)
+DONE with 3-3-puzzle-problem-100-10.pddl
+------------------------------------------------------------
+BEGIN WITH 3-4-puzzle-problem-200-01.pddl
+1c1
+< ;; Unsolvable instance of the (3x3)-Puzzle.
+---
+> ;; Unsolvable instance of the (3x4)-Puzzle.
+4,6c4,7
+< ;; 7 5 8  ||  0 1 2
+< ;; 2 4 1  ||  3 4 5
+< ;; 6 0 3  ||  6 7 8
+---
+> ;;  1  5  3  ||   0  1  2
+> ;;  4  6 10  ||   3  4  5
+> ;;  7  0  2  ||   6  7  8
+> ;; 11  8  9  ||   9 10 11
+8c9
+< (define (problem p3-3-puzzle-problem-100-1390833173302856514)
+---
+> (define (problem 3-4-puzzle-problem-200-1390833255910371208)
+11,12c12,13
+<     t1 t2 t3 t4 t5 t6 t7 t8
+<     p1 p2 p3
+---
+>     t1 t2 t3 t4 t5 t6 t7 t8 t9 t10 t11
+>     p1 p2 p3 p4
+23a25,27
+>     (tile t9)
+>     (tile t10)
+>     (tile t11)
+31a36
+>     (yposition p4)
+33,34c38,39
+<     (inc p1 p2) (inc p2 p3)
+<     (dec p2 p1) (dec p3 p2)
+---
+>     (inc p1 p2) (inc p2 p3) (inc p3 p4)
+>     (dec p2 p1) (dec p3 p2) (dec p4 p3)
+36c41
+<     (at t7 p1 p1)
+---
+>     (at t1 p1 p1)
+38,42c43,47
+<     (at t8 p3 p1)
+<     (at t2 p1 p2)
+<     (at t4 p2 p2)
+<     (at t1 p3 p2)
+<     (at t6 p1 p3)
+---
+>     (at t3 p3 p1)
+>     (at t4 p1 p2)
+>     (at t6 p2 p2)
+>     (at t10 p3 p2)
+>     (at t7 p1 p3)
+44c49,52
+<     (at t3 p3 p3)
+---
+>     (at t2 p3 p3)
+>     (at t11 p1 p4)
+>     (at t8 p2 p4)
+>     (at t9 p3 p4)
+56a65,67
+>       (at t9 p1 p4)
+>       (at t10 p2 p4)
+>       (at t11 p3 p4)
+DONE with 3-4-puzzle-problem-200-01.pddl
+------------------------------------------------------------
+BEGIN WITH 3-4-puzzle-problem-200-02.pddl
+1c1
+< ;; Unsolvable instance of the (3x3)-Puzzle.
+---
+> ;; Unsolvable instance of the (3x4)-Puzzle.
+4,6c4,7
+< ;; 7 5 8  ||  0 1 2
+< ;; 2 4 1  ||  3 4 5
+< ;; 6 0 3  ||  6 7 8
+---
+> ;;  6  2  3  ||   0  1  2
+> ;;  7  8  5  ||   3  4  5
+> ;;  1  0 10  ||   6  7  8
+> ;;  9 11  4  ||   9 10 11
+8c9
+< (define (problem p3-3-puzzle-problem-100-1390833173302856514)
+---
+> (define (problem 3-4-puzzle-problem-200-1390833255917757032)
+11,12c12,13
+<     t1 t2 t3 t4 t5 t6 t7 t8
+<     p1 p2 p3
+---
+>     t1 t2 t3 t4 t5 t6 t7 t8 t9 t10 t11
+>     p1 p2 p3 p4
+23a25,27
+>     (tile t9)
+>     (tile t10)
+>     (tile t11)
+31a36
+>     (yposition p4)
+33,34c38,39
+<     (inc p1 p2) (inc p2 p3)
+<     (dec p2 p1) (dec p3 p2)
+---
+>     (inc p1 p2) (inc p2 p3) (inc p3 p4)
+>     (dec p2 p1) (dec p3 p2) (dec p4 p3)
+36,42c41,47
+<     (at t7 p1 p1)
+<     (at t5 p2 p1)
+<     (at t8 p3 p1)
+<     (at t2 p1 p2)
+<     (at t4 p2 p2)
+<     (at t1 p3 p2)
+<     (at t6 p1 p3)
+---
+>     (at t6 p1 p1)
+>     (at t2 p2 p1)
+>     (at t3 p3 p1)
+>     (at t7 p1 p2)
+>     (at t8 p2 p2)
+>     (at t5 p3 p2)
+>     (at t1 p1 p3)
+44c49,52
+<     (at t3 p3 p3)
+---
+>     (at t10 p3 p3)
+>     (at t9 p1 p4)
+>     (at t11 p2 p4)
+>     (at t4 p3 p4)
+56a65,67
+>       (at t9 p1 p4)
+>       (at t10 p2 p4)
+>       (at t11 p3 p4)
+DONE with 3-4-puzzle-problem-200-02.pddl
+------------------------------------------------------------
+BEGIN WITH 3-4-puzzle-problem-200-03.pddl
+1c1
+< ;; Unsolvable instance of the (3x3)-Puzzle.
+---
+> ;; Unsolvable instance of the (3x4)-Puzzle.
+4,6c4,7
+< ;; 7 5 8  ||  0 1 2
+< ;; 2 4 1  ||  3 4 5
+< ;; 6 0 3  ||  6 7 8
+---
+> ;; 11  2  1  ||   0  1  2
+> ;;  4  0  6  ||   3  4  5
+> ;;  9  3 10  ||   6  7  8
+> ;;  7  8  5  ||   9 10 11
+8c9
+< (define (problem p3-3-puzzle-problem-100-1390833173302856514)
+---
+> (define (problem 3-4-puzzle-problem-200-1390833255924538643)
+11,12c12,13
+<     t1 t2 t3 t4 t5 t6 t7 t8
+<     p1 p2 p3
+---
+>     t1 t2 t3 t4 t5 t6 t7 t8 t9 t10 t11
+>     p1 p2 p3 p4
+23a25,27
+>     (tile t9)
+>     (tile t10)
+>     (tile t11)
+31a36
+>     (yposition p4)
+33,34c38,39
+<     (inc p1 p2) (inc p2 p3)
+<     (dec p2 p1) (dec p3 p2)
+---
+>     (inc p1 p2) (inc p2 p3) (inc p3 p4)
+>     (dec p2 p1) (dec p3 p2) (dec p4 p3)
+36,44c41,52
+<     (at t7 p1 p1)
+<     (at t5 p2 p1)
+<     (at t8 p3 p1)
+<     (at t2 p1 p2)
+<     (at t4 p2 p2)
+<     (at t1 p3 p2)
+<     (at t6 p1 p3)
+<     (blank p2 p3)
+<     (at t3 p3 p3)
+---
+>     (at t11 p1 p1)
+>     (at t2 p2 p1)
+>     (at t1 p3 p1)
+>     (at t4 p1 p2)
+>     (blank p2 p2)
+>     (at t6 p3 p2)
+>     (at t9 p1 p3)
+>     (at t3 p2 p3)
+>     (at t10 p3 p3)
+>     (at t7 p1 p4)
+>     (at t8 p2 p4)
+>     (at t5 p3 p4)
+56a65,67
+>       (at t9 p1 p4)
+>       (at t10 p2 p4)
+>       (at t11 p3 p4)
+DONE with 3-4-puzzle-problem-200-03.pddl
+------------------------------------------------------------
+BEGIN WITH 3-4-puzzle-problem-200-04.pddl
+1c1
+< ;; Unsolvable instance of the (3x3)-Puzzle.
+---
+> ;; Unsolvable instance of the (3x4)-Puzzle.
+4,6c4,7
+< ;; 7 5 8  ||  0 1 2
+< ;; 2 4 1  ||  3 4 5
+< ;; 6 0 3  ||  6 7 8
+---
+> ;;  1  5  3  ||   0  1  2
+> ;;  4  6  0  ||   3  4  5
+> ;;  8  7 10  ||   6  7  8
+> ;; 11  2  9  ||   9 10 11
+8c9
+< (define (problem p3-3-puzzle-problem-100-1390833173302856514)
+---
+> (define (problem 3-4-puzzle-problem-200-1390833255931237328)
+11,12c12,13
+<     t1 t2 t3 t4 t5 t6 t7 t8
+<     p1 p2 p3
+---
+>     t1 t2 t3 t4 t5 t6 t7 t8 t9 t10 t11
+>     p1 p2 p3 p4
+23a25,27
+>     (tile t9)
+>     (tile t10)
+>     (tile t11)
+31a36
+>     (yposition p4)
+33,34c38,39
+<     (inc p1 p2) (inc p2 p3)
+<     (dec p2 p1) (dec p3 p2)
+---
+>     (inc p1 p2) (inc p2 p3) (inc p3 p4)
+>     (dec p2 p1) (dec p3 p2) (dec p4 p3)
+36c41
+<     (at t7 p1 p1)
+---
+>     (at t1 p1 p1)
+38,44c43,52
+<     (at t8 p3 p1)
+<     (at t2 p1 p2)
+<     (at t4 p2 p2)
+<     (at t1 p3 p2)
+<     (at t6 p1 p3)
+<     (blank p2 p3)
+<     (at t3 p3 p3)
+---
+>     (at t3 p3 p1)
+>     (at t4 p1 p2)
+>     (at t6 p2 p2)
+>     (blank p3 p2)
+>     (at t8 p1 p3)
+>     (at t7 p2 p3)
+>     (at t10 p3 p3)
+>     (at t11 p1 p4)
+>     (at t2 p2 p4)
+>     (at t9 p3 p4)
+56a65,67
+>       (at t9 p1 p4)
+>       (at t10 p2 p4)
+>       (at t11 p3 p4)
+DONE with 3-4-puzzle-problem-200-04.pddl
+------------------------------------------------------------
+BEGIN WITH 3-4-puzzle-problem-200-05.pddl
+1c1
+< ;; Unsolvable instance of the (3x3)-Puzzle.
+---
+> ;; Unsolvable instance of the (3x4)-Puzzle.
+4,6c4,7
+< ;; 7 5 8  ||  0 1 2
+< ;; 2 4 1  ||  3 4 5
+< ;; 6 0 3  ||  6 7 8
+---
+> ;;  2  5  3  ||   0  1  2
+> ;;  7  1  4  ||   3  4  5
+> ;;  9  8  0  ||   6  7  8
+> ;;  6 10 11  ||   9 10 11
+8c9
+< (define (problem p3-3-puzzle-problem-100-1390833173302856514)
+---
+> (define (problem 3-4-puzzle-problem-200-1390833255937902044)
+11,12c12,13
+<     t1 t2 t3 t4 t5 t6 t7 t8
+<     p1 p2 p3
+---
+>     t1 t2 t3 t4 t5 t6 t7 t8 t9 t10 t11
+>     p1 p2 p3 p4
+23a25,27
+>     (tile t9)
+>     (tile t10)
+>     (tile t11)
+31a36
+>     (yposition p4)
+33,34c38,39
+<     (inc p1 p2) (inc p2 p3)
+<     (dec p2 p1) (dec p3 p2)
+---
+>     (inc p1 p2) (inc p2 p3) (inc p3 p4)
+>     (dec p2 p1) (dec p3 p2) (dec p4 p3)
+36c41
+<     (at t7 p1 p1)
+---
+>     (at t2 p1 p1)
+38,44c43,52
+<     (at t8 p3 p1)
+<     (at t2 p1 p2)
+<     (at t4 p2 p2)
+<     (at t1 p3 p2)
+<     (at t6 p1 p3)
+<     (blank p2 p3)
+<     (at t3 p3 p3)
+---
+>     (at t3 p3 p1)
+>     (at t7 p1 p2)
+>     (at t1 p2 p2)
+>     (at t4 p3 p2)
+>     (at t9 p1 p3)
+>     (at t8 p2 p3)
+>     (blank p3 p3)
+>     (at t6 p1 p4)
+>     (at t10 p2 p4)
+>     (at t11 p3 p4)
+56a65,67
+>       (at t9 p1 p4)
+>       (at t10 p2 p4)
+>       (at t11 p3 p4)
+DONE with 3-4-puzzle-problem-200-05.pddl
+------------------------------------------------------------
+BEGIN WITH 3-4-puzzle-problem-200-06.pddl
+1c1
+< ;; Unsolvable instance of the (3x3)-Puzzle.
+---
+> ;; Unsolvable instance of the (3x4)-Puzzle.
+4,6c4,7
+< ;; 7 5 8  ||  0 1 2
+< ;; 2 4 1  ||  3 4 5
+< ;; 6 0 3  ||  6 7 8
+---
+> ;;  3  4  1  ||   0  1  2
+> ;; 11  2 10  ||   3  4  5
+> ;;  9  6  5  ||   6  7  8
+> ;;  7  0  8  ||   9 10 11
+8c9
+< (define (problem p3-3-puzzle-problem-100-1390833173302856514)
+---
+> (define (problem 3-4-puzzle-problem-200-1390833255944600139)
+11,12c12,13
+<     t1 t2 t3 t4 t5 t6 t7 t8
+<     p1 p2 p3
+---
+>     t1 t2 t3 t4 t5 t6 t7 t8 t9 t10 t11
+>     p1 p2 p3 p4
+23a25,27
+>     (tile t9)
+>     (tile t10)
+>     (tile t11)
+31a36
+>     (yposition p4)
+33,34c38,39
+<     (inc p1 p2) (inc p2 p3)
+<     (dec p2 p1) (dec p3 p2)
+---
+>     (inc p1 p2) (inc p2 p3) (inc p3 p4)
+>     (dec p2 p1) (dec p3 p2) (dec p4 p3)
+36,44c41,52
+<     (at t7 p1 p1)
+<     (at t5 p2 p1)
+<     (at t8 p3 p1)
+<     (at t2 p1 p2)
+<     (at t4 p2 p2)
+<     (at t1 p3 p2)
+<     (at t6 p1 p3)
+<     (blank p2 p3)
+<     (at t3 p3 p3)
+---
+>     (at t3 p1 p1)
+>     (at t4 p2 p1)
+>     (at t1 p3 p1)
+>     (at t11 p1 p2)
+>     (at t2 p2 p2)
+>     (at t10 p3 p2)
+>     (at t9 p1 p3)
+>     (at t6 p2 p3)
+>     (at t5 p3 p3)
+>     (at t7 p1 p4)
+>     (blank p2 p4)
+>     (at t8 p3 p4)
+56a65,67
+>       (at t9 p1 p4)
+>       (at t10 p2 p4)
+>       (at t11 p3 p4)
+DONE with 3-4-puzzle-problem-200-06.pddl
+------------------------------------------------------------
+BEGIN WITH 3-4-puzzle-problem-200-07.pddl
+1c1
+< ;; Unsolvable instance of the (3x3)-Puzzle.
+---
+> ;; Unsolvable instance of the (3x4)-Puzzle.
+4,6c4,7
+< ;; 7 5 8  ||  0 1 2
+< ;; 2 4 1  ||  3 4 5
+< ;; 6 0 3  ||  6 7 8
+---
+> ;;  7  4  3  ||   0  1  2
+> ;;  5  1  2  ||   3  4  5
+> ;;  0 10  9  ||   6  7  8
+> ;;  6 11  8  ||   9 10 11
+8c9
+< (define (problem p3-3-puzzle-problem-100-1390833173302856514)
+---
+> (define (problem 3-4-puzzle-problem-200-1390833255951311199)
+11,12c12,13
+<     t1 t2 t3 t4 t5 t6 t7 t8
+<     p1 p2 p3
+---
+>     t1 t2 t3 t4 t5 t6 t7 t8 t9 t10 t11
+>     p1 p2 p3 p4
+23a25,27
+>     (tile t9)
+>     (tile t10)
+>     (tile t11)
+31a36
+>     (yposition p4)
+33,34c38,39
+<     (inc p1 p2) (inc p2 p3)
+<     (dec p2 p1) (dec p3 p2)
+---
+>     (inc p1 p2) (inc p2 p3) (inc p3 p4)
+>     (dec p2 p1) (dec p3 p2) (dec p4 p3)
+37,44c42,52
+<     (at t5 p2 p1)
+<     (at t8 p3 p1)
+<     (at t2 p1 p2)
+<     (at t4 p2 p2)
+<     (at t1 p3 p2)
+<     (at t6 p1 p3)
+<     (blank p2 p3)
+<     (at t3 p3 p3)
+---
+>     (at t4 p2 p1)
+>     (at t3 p3 p1)
+>     (at t5 p1 p2)
+>     (at t1 p2 p2)
+>     (at t2 p3 p2)
+>     (blank p1 p3)
+>     (at t10 p2 p3)
+>     (at t9 p3 p3)
+>     (at t6 p1 p4)
+>     (at t11 p2 p4)
+>     (at t8 p3 p4)
+56a65,67
+>       (at t9 p1 p4)
+>       (at t10 p2 p4)
+>       (at t11 p3 p4)
+DONE with 3-4-puzzle-problem-200-07.pddl
+------------------------------------------------------------
+BEGIN WITH 3-4-puzzle-problem-200-08.pddl
+1c1
+< ;; Unsolvable instance of the (3x3)-Puzzle.
+---
+> ;; Unsolvable instance of the (3x4)-Puzzle.
+4,6c4,7
+< ;; 7 5 8  ||  0 1 2
+< ;; 2 4 1  ||  3 4 5
+< ;; 6 0 3  ||  6 7 8
+---
+> ;;  5  3  2  ||   0  1  2
+> ;; 10  7  6  ||   3  4  5
+> ;;  0  8  9  ||   6  7  8
+> ;;  1 11  4  ||   9 10 11
+8c9
+< (define (problem p3-3-puzzle-problem-100-1390833173302856514)
+---
+> (define (problem 3-4-puzzle-problem-200-1390833255957939108)
+11,12c12,13
+<     t1 t2 t3 t4 t5 t6 t7 t8
+<     p1 p2 p3
+---
+>     t1 t2 t3 t4 t5 t6 t7 t8 t9 t10 t11
+>     p1 p2 p3 p4
+23a25,27
+>     (tile t9)
+>     (tile t10)
+>     (tile t11)
+31a36
+>     (yposition p4)
+33,34c38,39
+<     (inc p1 p2) (inc p2 p3)
+<     (dec p2 p1) (dec p3 p2)
+---
+>     (inc p1 p2) (inc p2 p3) (inc p3 p4)
+>     (dec p2 p1) (dec p3 p2) (dec p4 p3)
+36,44c41,52
+<     (at t7 p1 p1)
+<     (at t5 p2 p1)
+<     (at t8 p3 p1)
+<     (at t2 p1 p2)
+<     (at t4 p2 p2)
+<     (at t1 p3 p2)
+<     (at t6 p1 p3)
+<     (blank p2 p3)
+<     (at t3 p3 p3)
+---
+>     (at t5 p1 p1)
+>     (at t3 p2 p1)
+>     (at t2 p3 p1)
+>     (at t10 p1 p2)
+>     (at t7 p2 p2)
+>     (at t6 p3 p2)
+>     (blank p1 p3)
+>     (at t8 p2 p3)
+>     (at t9 p3 p3)
+>     (at t1 p1 p4)
+>     (at t11 p2 p4)
+>     (at t4 p3 p4)
+56a65,67
+>       (at t9 p1 p4)
+>       (at t10 p2 p4)
+>       (at t11 p3 p4)
+DONE with 3-4-puzzle-problem-200-08.pddl
+------------------------------------------------------------
+BEGIN WITH 3-4-puzzle-problem-200-09.pddl
+1c1
+< ;; Unsolvable instance of the (3x3)-Puzzle.
+---
+> ;; Unsolvable instance of the (3x4)-Puzzle.
+4,6c4,7
+< ;; 7 5 8  ||  0 1 2
+< ;; 2 4 1  ||  3 4 5
+< ;; 6 0 3  ||  6 7 8
+---
+> ;;  2  9  1  ||   0  1  2
+> ;;  5  4  7  ||   3  4  5
+> ;;  6 10  3  ||   6  7  8
+> ;; 11  8  0  ||   9 10 11
+8c9
+< (define (problem p3-3-puzzle-problem-100-1390833173302856514)
+---
+> (define (problem 3-4-puzzle-problem-200-1390833255964693529)
+11,12c12,13
+<     t1 t2 t3 t4 t5 t6 t7 t8
+<     p1 p2 p3
+---
+>     t1 t2 t3 t4 t5 t6 t7 t8 t9 t10 t11
+>     p1 p2 p3 p4
+23a25,27
+>     (tile t9)
+>     (tile t10)
+>     (tile t11)
+31a36
+>     (yposition p4)
+33,34c38,39
+<     (inc p1 p2) (inc p2 p3)
+<     (dec p2 p1) (dec p3 p2)
+---
+>     (inc p1 p2) (inc p2 p3) (inc p3 p4)
+>     (dec p2 p1) (dec p3 p2) (dec p4 p3)
+36,39c41,44
+<     (at t7 p1 p1)
+<     (at t5 p2 p1)
+<     (at t8 p3 p1)
+<     (at t2 p1 p2)
+---
+>     (at t2 p1 p1)
+>     (at t9 p2 p1)
+>     (at t1 p3 p1)
+>     (at t5 p1 p2)
+41c46
+<     (at t1 p3 p2)
+---
+>     (at t7 p3 p2)
+43c48
+<     (blank p2 p3)
+---
+>     (at t10 p2 p3)
+44a50,52
+>     (at t11 p1 p4)
+>     (at t8 p2 p4)
+>     (blank p3 p4)
+56a65,67
+>       (at t9 p1 p4)
+>       (at t10 p2 p4)
+>       (at t11 p3 p4)
+DONE with 3-4-puzzle-problem-200-09.pddl
+------------------------------------------------------------
+BEGIN WITH 3-4-puzzle-problem-200-10.pddl
+1c1
+< ;; Unsolvable instance of the (3x3)-Puzzle.
+---
+> ;; Unsolvable instance of the (3x4)-Puzzle.
+4,6c4,7
+< ;; 7 5 8  ||  0 1 2
+< ;; 2 4 1  ||  3 4 5
+< ;; 6 0 3  ||  6 7 8
+---
+> ;;  7  1  3  ||   0  1  2
+> ;; 10  4  6  ||   3  4  5
+> ;; 11  9  0  ||   6  7  8
+> ;;  8  2  5  ||   9 10 11
+8c9
+< (define (problem p3-3-puzzle-problem-100-1390833173302856514)
+---
+> (define (problem 3-4-puzzle-problem-200-1390833255971420774)
+11,12c12,13
+<     t1 t2 t3 t4 t5 t6 t7 t8
+<     p1 p2 p3
+---
+>     t1 t2 t3 t4 t5 t6 t7 t8 t9 t10 t11
+>     p1 p2 p3 p4
+23a25,27
+>     (tile t9)
+>     (tile t10)
+>     (tile t11)
+31a36
+>     (yposition p4)
+33,34c38,39
+<     (inc p1 p2) (inc p2 p3)
+<     (dec p2 p1) (dec p3 p2)
+---
+>     (inc p1 p2) (inc p2 p3) (inc p3 p4)
+>     (dec p2 p1) (dec p3 p2) (dec p4 p3)
+37,39c42,44
+<     (at t5 p2 p1)
+<     (at t8 p3 p1)
+<     (at t2 p1 p2)
+---
+>     (at t1 p2 p1)
+>     (at t3 p3 p1)
+>     (at t10 p1 p2)
+41,44c46,52
+<     (at t1 p3 p2)
+<     (at t6 p1 p3)
+<     (blank p2 p3)
+<     (at t3 p3 p3)
+---
+>     (at t6 p3 p2)
+>     (at t11 p1 p3)
+>     (at t9 p2 p3)
+>     (blank p3 p3)
+>     (at t8 p1 p4)
+>     (at t2 p2 p4)
+>     (at t5 p3 p4)
+56a65,67
+>       (at t9 p1 p4)
+>       (at t10 p2 p4)
+>       (at t11 p3 p4)
+DONE with 3-4-puzzle-problem-200-10.pddl
+------------------------------------------------------------
+BEGIN WITH domain.pddl
+1,59c1,52
+< ;; Unsolvable instance of the (3x3)-Puzzle.
+< ;;
+< ;; Initial state:     Goal state:
+< ;; 7 5 8  ||  0 1 2
+< ;; 2 4 1  ||  3 4 5
+< ;; 6 0 3  ||  6 7 8
+< ;;
+< (define (problem p3-3-puzzle-problem-100-1390833173302856514)
+<   (:domain strips-sliding-tile)
+<   (:objects
+<     t1 t2 t3 t4 t5 t6 t7 t8
+<     p1 p2 p3
+<   )
+< 
+<   (:init
+<     (tile t1)
+<     (tile t2)
+<     (tile t3)
+<     (tile t4)
+<     (tile t5)
+<     (tile t6)
+<     (tile t7)
+<     (tile t8)
+< 
+<     (xposition p1)
+<     (xposition p2)
+<     (xposition p3)
+< 
+<     (yposition p1)
+<     (yposition p2)
+<     (yposition p3)
+< 
+<     (inc p1 p2) (inc p2 p3)
+<     (dec p2 p1) (dec p3 p2)
+< 
+<     (at t7 p1 p1)
+<     (at t5 p2 p1)
+<     (at t8 p3 p1)
+<     (at t2 p1 p2)
+<     (at t4 p2 p2)
+<     (at t1 p3 p2)
+<     (at t6 p1 p3)
+<     (blank p2 p3)
+<     (at t3 p3 p3)
+<   )
+< 
+<   (:goal
+<     (and
+<       (at t1 p2 p1)
+<       (at t2 p3 p1)
+<       (at t3 p1 p2)
+<       (at t4 p2 p2)
+<       (at t5 p3 p2)
+<       (at t6 p1 p3)
+<       (at t7 p2 p3)
+<       (at t8 p3 p3)
+<     )
+<   )
+< )
+---
+> 
+> ;; The sliding-tile puzzle (i.e. the eight/fifteen/twentyfour puzzle).
+> ;; Tile positions are encoded by the predicate (at <tile> <x> <y>), i.e.
+> ;; using one object for horizontal position and one for vertical (there's
+> ;; a separate predicate for the position of the blank). The predicates
+> ;; "inc" and "dec" encode addition/subtraction of positions.
+> 
+> ;; The instance files come in two flavors: The vanilla one uses the same
+> ;; objects for both x and y coordinates, while the other (files that have
+> ;; an "x" at the end of their name) uses different objects for x and y
+> ;; coordinates; this is because some planners seem to require different
+> ;; objects for each parameter of an operator.
+> 
+> (define (domain strips-sliding-tile)
+>   (:requirements :strips)
+>   (:predicates
+>    (tile ?x) (xposition ?x) (yposition ?x)
+>    (at ?t ?x ?y) (blank ?x ?y)
+>    (inc ?p ?pp) (dec ?p ?pp))
+> 
+>   (:action move-up
+>     :parameters (?t ?px ?py ?by)
+>     :precondition (and
+> 		   (tile ?t) (xposition ?px) (yposition ?py) (yposition ?by)
+> 		   (dec ?by ?py) (blank ?px ?by) (at ?t ?px ?py))
+>     :effect (and (not (blank ?px ?by)) (not (at ?t ?px ?py))
+> 		 (blank ?px ?py) (at ?t ?px ?by)))
+> 
+>   (:action move-down
+>     :parameters (?t ?px ?py ?by)
+>     :precondition (and
+> 		   (tile ?t) (xposition ?px) (yposition ?py) (yposition ?by)
+> 		   (inc ?by ?py) (blank ?px ?by) (at ?t ?px ?py))
+>     :effect (and (not (blank ?px ?by)) (not (at ?t ?px ?py))
+> 		 (blank ?px ?py) (at ?t ?px ?by)))
+> 
+>   (:action move-left
+>     :parameters (?t ?px ?py ?bx)
+>     :precondition (and
+> 		   (tile ?t) (xposition ?px) (yposition ?py) (xposition ?bx)
+> 		   (dec ?bx ?px) (blank ?bx ?py) (at ?t ?px ?py))
+>     :effect (and (not (blank ?bx ?py)) (not (at ?t ?px ?py))
+> 		 (blank ?px ?py) (at ?t ?bx ?py)))
+> 
+>   (:action move-right
+>     :parameters (?t ?px ?py ?bx)
+>     :precondition (and
+> 		   (tile ?t) (xposition ?px) (yposition ?py) (xposition ?bx)
+> 		   (inc ?bx ?px) (blank ?bx ?py) (at ?t ?px ?py))
+>     :effect (and (not (blank ?bx ?py)) (not (at ?t ?px ?py))
+> 		 (blank ?px ?py) (at ?t ?bx ?py)))
+>   )
+DONE with domain.pddl
+------------------------------------------------------------
+BEGIN WITH result
+1,59c1,1076
+< ;; Unsolvable instance of the (3x3)-Puzzle.
+< ;;
+< ;; Initial state:     Goal state:
+< ;; 7 5 8  ||  0 1 2
+< ;; 2 4 1  ||  3 4 5
+< ;; 6 0 3  ||  6 7 8
+< ;;
+< (define (problem p3-3-puzzle-problem-100-1390833173302856514)
+<   (:domain strips-sliding-tile)
+<   (:objects
+<     t1 t2 t3 t4 t5 t6 t7 t8
+<     p1 p2 p3
+<   )
+< 
+<   (:init
+<     (tile t1)
+<     (tile t2)
+<     (tile t3)
+<     (tile t4)
+<     (tile t5)
+<     (tile t6)
+<     (tile t7)
+<     (tile t8)
+< 
+<     (xposition p1)
+<     (xposition p2)
+<     (xposition p3)
+< 
+<     (yposition p1)
+<     (yposition p2)
+<     (yposition p3)
+< 
+<     (inc p1 p2) (inc p2 p3)
+<     (dec p2 p1) (dec p3 p2)
+< 
+<     (at t7 p1 p1)
+<     (at t5 p2 p1)
+<     (at t8 p3 p1)
+<     (at t2 p1 p2)
+<     (at t4 p2 p2)
+<     (at t1 p3 p2)
+<     (at t6 p1 p3)
+<     (blank p2 p3)
+<     (at t3 p3 p3)
+<   )
+< 
+<   (:goal
+<     (and
+<       (at t1 p2 p1)
+<       (at t2 p3 p1)
+<       (at t3 p1 p2)
+<       (at t4 p2 p2)
+<       (at t5 p3 p2)
+<       (at t6 p1 p3)
+<       (at t7 p2 p3)
+<       (at t8 p3 p3)
+<     )
+<   )
+< )
+---
+> BEGIN WITH 3-3-puzzle-problem-100-01.pddl
+> 4,6c4,6
+> < ;; 7 5 8  ||  0 1 2
+> < ;; 2 4 1  ||  3 4 5
+> < ;; 6 0 3  ||  6 7 8
+> ---
+> > ;; 1 2 5  ||  0 1 2
+> > ;; 6 4 7  ||  3 4 5
+> > ;; 0 8 3  ||  6 7 8
+> 8c8
+> < (define (problem p3-3-puzzle-problem-100-1390833173302856514)
+> ---
+> > (define (problem 3-3-puzzle-problem-100-1390833173294931248)
+> 36,39c36,39
+> <     (at t7 p1 p1)
+> <     (at t5 p2 p1)
+> <     (at t8 p3 p1)
+> <     (at t2 p1 p2)
+> ---
+> >     (at t1 p1 p1)
+> >     (at t2 p2 p1)
+> >     (at t5 p3 p1)
+> >     (at t6 p1 p2)
+> 41,43c41,43
+> <     (at t1 p3 p2)
+> <     (at t6 p1 p3)
+> <     (blank p2 p3)
+> ---
+> >     (at t7 p3 p2)
+> >     (blank p1 p3)
+> >     (at t8 p2 p3)
+> DONE with 3-3-puzzle-problem-100-01.pddl
+> ------------------------------------------------------------
+> BEGIN WITH 3-3-puzzle-problem-100-02.pddl
+> 8c8
+> < (define (problem p3-3-puzzle-problem-100-1390833173302856514)
+> ---
+> > (define (problem 3-3-puzzle-problem-100-1390833173302856514)
+> DONE with 3-3-puzzle-problem-100-02.pddl
+> ------------------------------------------------------------
+> BEGIN WITH 3-3-puzzle-problem-100-03.pddl
+> 4,6c4,6
+> < ;; 7 5 8  ||  0 1 2
+> < ;; 2 4 1  ||  3 4 5
+> < ;; 6 0 3  ||  6 7 8
+> ---
+> > ;; 0 3 2  ||  0 1 2
+> > ;; 8 5 4  ||  3 4 5
+> > ;; 1 6 7  ||  6 7 8
+> 8c8
+> < (define (problem p3-3-puzzle-problem-100-1390833173302856514)
+> ---
+> > (define (problem 3-3-puzzle-problem-100-1390833173309616430)
+> 36,44c36,44
+> <     (at t7 p1 p1)
+> <     (at t5 p2 p1)
+> <     (at t8 p3 p1)
+> <     (at t2 p1 p2)
+> <     (at t4 p2 p2)
+> <     (at t1 p3 p2)
+> <     (at t6 p1 p3)
+> <     (blank p2 p3)
+> <     (at t3 p3 p3)
+> ---
+> >     (blank p1 p1)
+> >     (at t3 p2 p1)
+> >     (at t2 p3 p1)
+> >     (at t8 p1 p2)
+> >     (at t5 p2 p2)
+> >     (at t4 p3 p2)
+> >     (at t1 p1 p3)
+> >     (at t6 p2 p3)
+> >     (at t7 p3 p3)
+> DONE with 3-3-puzzle-problem-100-03.pddl
+> ------------------------------------------------------------
+> BEGIN WITH 3-3-puzzle-problem-100-04.pddl
+> 4,6c4,6
+> < ;; 7 5 8  ||  0 1 2
+> < ;; 2 4 1  ||  3 4 5
+> < ;; 6 0 3  ||  6 7 8
+> ---
+> > ;; 7 8 3  ||  0 1 2
+> > ;; 5 1 0  ||  3 4 5
+> > ;; 6 2 4  ||  6 7 8
+> 8c8
+> < (define (problem p3-3-puzzle-problem-100-1390833173302856514)
+> ---
+> > (define (problem 3-3-puzzle-problem-100-1390833173316488526)
+> 37,41c37,41
+> <     (at t5 p2 p1)
+> <     (at t8 p3 p1)
+> <     (at t2 p1 p2)
+> <     (at t4 p2 p2)
+> <     (at t1 p3 p2)
+> ---
+> >     (at t8 p2 p1)
+> >     (at t3 p3 p1)
+> >     (at t5 p1 p2)
+> >     (at t1 p2 p2)
+> >     (blank p3 p2)
+> 43,44c43,44
+> <     (blank p2 p3)
+> <     (at t3 p3 p3)
+> ---
+> >     (at t2 p2 p3)
+> >     (at t4 p3 p3)
+> DONE with 3-3-puzzle-problem-100-04.pddl
+> ------------------------------------------------------------
+> BEGIN WITH 3-3-puzzle-problem-100-05.pddl
+> 4,6c4,6
+> < ;; 7 5 8  ||  0 1 2
+> < ;; 2 4 1  ||  3 4 5
+> < ;; 6 0 3  ||  6 7 8
+> ---
+> > ;; 2 0 7  ||  0 1 2
+> > ;; 6 3 8  ||  3 4 5
+> > ;; 5 4 1  ||  6 7 8
+> 8c8
+> < (define (problem p3-3-puzzle-problem-100-1390833173302856514)
+> ---
+> > (define (problem 3-3-puzzle-problem-100-1390833173323132671)
+> 36,44c36,44
+> <     (at t7 p1 p1)
+> <     (at t5 p2 p1)
+> <     (at t8 p3 p1)
+> <     (at t2 p1 p2)
+> <     (at t4 p2 p2)
+> <     (at t1 p3 p2)
+> <     (at t6 p1 p3)
+> <     (blank p2 p3)
+> <     (at t3 p3 p3)
+> ---
+> >     (at t2 p1 p1)
+> >     (blank p2 p1)
+> >     (at t7 p3 p1)
+> >     (at t6 p1 p2)
+> >     (at t3 p2 p2)
+> >     (at t8 p3 p2)
+> >     (at t5 p1 p3)
+> >     (at t4 p2 p3)
+> >     (at t1 p3 p3)
+> DONE with 3-3-puzzle-problem-100-05.pddl
+> ------------------------------------------------------------
+> BEGIN WITH 3-3-puzzle-problem-100-06.pddl
+> 4,6c4,6
+> < ;; 7 5 8  ||  0 1 2
+> < ;; 2 4 1  ||  3 4 5
+> < ;; 6 0 3  ||  6 7 8
+> ---
+> > ;; 0 6 3  ||  0 1 2
+> > ;; 2 7 1  ||  3 4 5
+> > ;; 4 5 8  ||  6 7 8
+> 8c8
+> < (define (problem p3-3-puzzle-problem-100-1390833173302856514)
+> ---
+> > (define (problem 3-3-puzzle-problem-100-1390833173329687552)
+> 36,38c36,38
+> <     (at t7 p1 p1)
+> <     (at t5 p2 p1)
+> <     (at t8 p3 p1)
+> ---
+> >     (blank p1 p1)
+> >     (at t6 p2 p1)
+> >     (at t3 p3 p1)
+> 40c40
+> <     (at t4 p2 p2)
+> ---
+> >     (at t7 p2 p2)
+> 42,44c42,44
+> <     (at t6 p1 p3)
+> <     (blank p2 p3)
+> <     (at t3 p3 p3)
+> ---
+> >     (at t4 p1 p3)
+> >     (at t5 p2 p3)
+> >     (at t8 p3 p3)
+> DONE with 3-3-puzzle-problem-100-06.pddl
+> ------------------------------------------------------------
+> BEGIN WITH 3-3-puzzle-problem-100-07.pddl
+> 4,6c4,6
+> < ;; 7 5 8  ||  0 1 2
+> < ;; 2 4 1  ||  3 4 5
+> < ;; 6 0 3  ||  6 7 8
+> ---
+> > ;; 2 7 4  ||  0 1 2
+> > ;; 3 0 1  ||  3 4 5
+> > ;; 6 8 5  ||  6 7 8
+> 8c8
+> < (define (problem p3-3-puzzle-problem-100-1390833173302856514)
+> ---
+> > (define (problem 3-3-puzzle-problem-100-1390833173336417208)
+> 36,40c36,40
+> <     (at t7 p1 p1)
+> <     (at t5 p2 p1)
+> <     (at t8 p3 p1)
+> <     (at t2 p1 p2)
+> <     (at t4 p2 p2)
+> ---
+> >     (at t2 p1 p1)
+> >     (at t7 p2 p1)
+> >     (at t4 p3 p1)
+> >     (at t3 p1 p2)
+> >     (blank p2 p2)
+> 43,44c43,44
+> <     (blank p2 p3)
+> <     (at t3 p3 p3)
+> ---
+> >     (at t8 p2 p3)
+> >     (at t5 p3 p3)
+> DONE with 3-3-puzzle-problem-100-07.pddl
+> ------------------------------------------------------------
+> BEGIN WITH 3-3-puzzle-problem-100-08.pddl
+> 4,6c4,6
+> < ;; 7 5 8  ||  0 1 2
+> < ;; 2 4 1  ||  3 4 5
+> < ;; 6 0 3  ||  6 7 8
+> ---
+> > ;; 0 2 7  ||  0 1 2
+> > ;; 3 1 4  ||  3 4 5
+> > ;; 6 8 5  ||  6 7 8
+> 8c8
+> < (define (problem p3-3-puzzle-problem-100-1390833173302856514)
+> ---
+> > (define (problem 3-3-puzzle-problem-100-1390833173343941124)
+> 36,41c36,41
+> <     (at t7 p1 p1)
+> <     (at t5 p2 p1)
+> <     (at t8 p3 p1)
+> <     (at t2 p1 p2)
+> <     (at t4 p2 p2)
+> <     (at t1 p3 p2)
+> ---
+> >     (blank p1 p1)
+> >     (at t2 p2 p1)
+> >     (at t7 p3 p1)
+> >     (at t3 p1 p2)
+> >     (at t1 p2 p2)
+> >     (at t4 p3 p2)
+> 43,44c43,44
+> <     (blank p2 p3)
+> <     (at t3 p3 p3)
+> ---
+> >     (at t8 p2 p3)
+> >     (at t5 p3 p3)
+> DONE with 3-3-puzzle-problem-100-08.pddl
+> ------------------------------------------------------------
+> BEGIN WITH 3-3-puzzle-problem-100-09.pddl
+> 4,6c4,6
+> < ;; 7 5 8  ||  0 1 2
+> < ;; 2 4 1  ||  3 4 5
+> < ;; 6 0 3  ||  6 7 8
+> ---
+> > ;; 3 4 1  ||  0 1 2
+> > ;; 6 8 5  ||  3 4 5
+> > ;; 7 2 0  ||  6 7 8
+> 8c8
+> < (define (problem p3-3-puzzle-problem-100-1390833173302856514)
+> ---
+> > (define (problem 3-3-puzzle-problem-100-1390833173350542827)
+> 36,44c36,44
+> <     (at t7 p1 p1)
+> <     (at t5 p2 p1)
+> <     (at t8 p3 p1)
+> <     (at t2 p1 p2)
+> <     (at t4 p2 p2)
+> <     (at t1 p3 p2)
+> <     (at t6 p1 p3)
+> <     (blank p2 p3)
+> <     (at t3 p3 p3)
+> ---
+> >     (at t3 p1 p1)
+> >     (at t4 p2 p1)
+> >     (at t1 p3 p1)
+> >     (at t6 p1 p2)
+> >     (at t8 p2 p2)
+> >     (at t5 p3 p2)
+> >     (at t7 p1 p3)
+> >     (at t2 p2 p3)
+> >     (blank p3 p3)
+> DONE with 3-3-puzzle-problem-100-09.pddl
+> ------------------------------------------------------------
+> BEGIN WITH 3-3-puzzle-problem-100-10.pddl
+> 4,6c4,6
+> < ;; 7 5 8  ||  0 1 2
+> < ;; 2 4 1  ||  3 4 5
+> < ;; 6 0 3  ||  6 7 8
+> ---
+> > ;; 8 7 0  ||  0 1 2
+> > ;; 3 4 1  ||  3 4 5
+> > ;; 5 6 2  ||  6 7 8
+> 8c8
+> < (define (problem p3-3-puzzle-problem-100-1390833173302856514)
+> ---
+> > (define (problem 3-3-puzzle-problem-100-1390833173357197494)
+> 36,39c36,39
+> <     (at t7 p1 p1)
+> <     (at t5 p2 p1)
+> <     (at t8 p3 p1)
+> <     (at t2 p1 p2)
+> ---
+> >     (at t8 p1 p1)
+> >     (at t7 p2 p1)
+> >     (blank p3 p1)
+> >     (at t3 p1 p2)
+> 42,44c42,44
+> <     (at t6 p1 p3)
+> <     (blank p2 p3)
+> <     (at t3 p3 p3)
+> ---
+> >     (at t5 p1 p3)
+> >     (at t6 p2 p3)
+> >     (at t2 p3 p3)
+> DONE with 3-3-puzzle-problem-100-10.pddl
+> ------------------------------------------------------------
+> BEGIN WITH 3-4-puzzle-problem-200-01.pddl
+> 1c1
+> < ;; Unsolvable instance of the (3x3)-Puzzle.
+> ---
+> > ;; Unsolvable instance of the (3x4)-Puzzle.
+> 4,6c4,7
+> < ;; 7 5 8  ||  0 1 2
+> < ;; 2 4 1  ||  3 4 5
+> < ;; 6 0 3  ||  6 7 8
+> ---
+> > ;;  1  5  3  ||   0  1  2
+> > ;;  4  6 10  ||   3  4  5
+> > ;;  7  0  2  ||   6  7  8
+> > ;; 11  8  9  ||   9 10 11
+> 8c9
+> < (define (problem p3-3-puzzle-problem-100-1390833173302856514)
+> ---
+> > (define (problem 3-4-puzzle-problem-200-1390833255910371208)
+> 11,12c12,13
+> <     t1 t2 t3 t4 t5 t6 t7 t8
+> <     p1 p2 p3
+> ---
+> >     t1 t2 t3 t4 t5 t6 t7 t8 t9 t10 t11
+> >     p1 p2 p3 p4
+> 23a25,27
+> >     (tile t9)
+> >     (tile t10)
+> >     (tile t11)
+> 31a36
+> >     (yposition p4)
+> 33,34c38,39
+> <     (inc p1 p2) (inc p2 p3)
+> <     (dec p2 p1) (dec p3 p2)
+> ---
+> >     (inc p1 p2) (inc p2 p3) (inc p3 p4)
+> >     (dec p2 p1) (dec p3 p2) (dec p4 p3)
+> 36c41
+> <     (at t7 p1 p1)
+> ---
+> >     (at t1 p1 p1)
+> 38,42c43,47
+> <     (at t8 p3 p1)
+> <     (at t2 p1 p2)
+> <     (at t4 p2 p2)
+> <     (at t1 p3 p2)
+> <     (at t6 p1 p3)
+> ---
+> >     (at t3 p3 p1)
+> >     (at t4 p1 p2)
+> >     (at t6 p2 p2)
+> >     (at t10 p3 p2)
+> >     (at t7 p1 p3)
+> 44c49,52
+> <     (at t3 p3 p3)
+> ---
+> >     (at t2 p3 p3)
+> >     (at t11 p1 p4)
+> >     (at t8 p2 p4)
+> >     (at t9 p3 p4)
+> 56a65,67
+> >       (at t9 p1 p4)
+> >       (at t10 p2 p4)
+> >       (at t11 p3 p4)
+> DONE with 3-4-puzzle-problem-200-01.pddl
+> ------------------------------------------------------------
+> BEGIN WITH 3-4-puzzle-problem-200-02.pddl
+> 1c1
+> < ;; Unsolvable instance of the (3x3)-Puzzle.
+> ---
+> > ;; Unsolvable instance of the (3x4)-Puzzle.
+> 4,6c4,7
+> < ;; 7 5 8  ||  0 1 2
+> < ;; 2 4 1  ||  3 4 5
+> < ;; 6 0 3  ||  6 7 8
+> ---
+> > ;;  6  2  3  ||   0  1  2
+> > ;;  7  8  5  ||   3  4  5
+> > ;;  1  0 10  ||   6  7  8
+> > ;;  9 11  4  ||   9 10 11
+> 8c9
+> < (define (problem p3-3-puzzle-problem-100-1390833173302856514)
+> ---
+> > (define (problem 3-4-puzzle-problem-200-1390833255917757032)
+> 11,12c12,13
+> <     t1 t2 t3 t4 t5 t6 t7 t8
+> <     p1 p2 p3
+> ---
+> >     t1 t2 t3 t4 t5 t6 t7 t8 t9 t10 t11
+> >     p1 p2 p3 p4
+> 23a25,27
+> >     (tile t9)
+> >     (tile t10)
+> >     (tile t11)
+> 31a36
+> >     (yposition p4)
+> 33,34c38,39
+> <     (inc p1 p2) (inc p2 p3)
+> <     (dec p2 p1) (dec p3 p2)
+> ---
+> >     (inc p1 p2) (inc p2 p3) (inc p3 p4)
+> >     (dec p2 p1) (dec p3 p2) (dec p4 p3)
+> 36,42c41,47
+> <     (at t7 p1 p1)
+> <     (at t5 p2 p1)
+> <     (at t8 p3 p1)
+> <     (at t2 p1 p2)
+> <     (at t4 p2 p2)
+> <     (at t1 p3 p2)
+> <     (at t6 p1 p3)
+> ---
+> >     (at t6 p1 p1)
+> >     (at t2 p2 p1)
+> >     (at t3 p3 p1)
+> >     (at t7 p1 p2)
+> >     (at t8 p2 p2)
+> >     (at t5 p3 p2)
+> >     (at t1 p1 p3)
+> 44c49,52
+> <     (at t3 p3 p3)
+> ---
+> >     (at t10 p3 p3)
+> >     (at t9 p1 p4)
+> >     (at t11 p2 p4)
+> >     (at t4 p3 p4)
+> 56a65,67
+> >       (at t9 p1 p4)
+> >       (at t10 p2 p4)
+> >       (at t11 p3 p4)
+> DONE with 3-4-puzzle-problem-200-02.pddl
+> ------------------------------------------------------------
+> BEGIN WITH 3-4-puzzle-problem-200-03.pddl
+> 1c1
+> < ;; Unsolvable instance of the (3x3)-Puzzle.
+> ---
+> > ;; Unsolvable instance of the (3x4)-Puzzle.
+> 4,6c4,7
+> < ;; 7 5 8  ||  0 1 2
+> < ;; 2 4 1  ||  3 4 5
+> < ;; 6 0 3  ||  6 7 8
+> ---
+> > ;; 11  2  1  ||   0  1  2
+> > ;;  4  0  6  ||   3  4  5
+> > ;;  9  3 10  ||   6  7  8
+> > ;;  7  8  5  ||   9 10 11
+> 8c9
+> < (define (problem p3-3-puzzle-problem-100-1390833173302856514)
+> ---
+> > (define (problem 3-4-puzzle-problem-200-1390833255924538643)
+> 11,12c12,13
+> <     t1 t2 t3 t4 t5 t6 t7 t8
+> <     p1 p2 p3
+> ---
+> >     t1 t2 t3 t4 t5 t6 t7 t8 t9 t10 t11
+> >     p1 p2 p3 p4
+> 23a25,27
+> >     (tile t9)
+> >     (tile t10)
+> >     (tile t11)
+> 31a36
+> >     (yposition p4)
+> 33,34c38,39
+> <     (inc p1 p2) (inc p2 p3)
+> <     (dec p2 p1) (dec p3 p2)
+> ---
+> >     (inc p1 p2) (inc p2 p3) (inc p3 p4)
+> >     (dec p2 p1) (dec p3 p2) (dec p4 p3)
+> 36,44c41,52
+> <     (at t7 p1 p1)
+> <     (at t5 p2 p1)
+> <     (at t8 p3 p1)
+> <     (at t2 p1 p2)
+> <     (at t4 p2 p2)
+> <     (at t1 p3 p2)
+> <     (at t6 p1 p3)
+> <     (blank p2 p3)
+> <     (at t3 p3 p3)
+> ---
+> >     (at t11 p1 p1)
+> >     (at t2 p2 p1)
+> >     (at t1 p3 p1)
+> >     (at t4 p1 p2)
+> >     (blank p2 p2)
+> >     (at t6 p3 p2)
+> >     (at t9 p1 p3)
+> >     (at t3 p2 p3)
+> >     (at t10 p3 p3)
+> >     (at t7 p1 p4)
+> >     (at t8 p2 p4)
+> >     (at t5 p3 p4)
+> 56a65,67
+> >       (at t9 p1 p4)
+> >       (at t10 p2 p4)
+> >       (at t11 p3 p4)
+> DONE with 3-4-puzzle-problem-200-03.pddl
+> ------------------------------------------------------------
+> BEGIN WITH 3-4-puzzle-problem-200-04.pddl
+> 1c1
+> < ;; Unsolvable instance of the (3x3)-Puzzle.
+> ---
+> > ;; Unsolvable instance of the (3x4)-Puzzle.
+> 4,6c4,7
+> < ;; 7 5 8  ||  0 1 2
+> < ;; 2 4 1  ||  3 4 5
+> < ;; 6 0 3  ||  6 7 8
+> ---
+> > ;;  1  5  3  ||   0  1  2
+> > ;;  4  6  0  ||   3  4  5
+> > ;;  8  7 10  ||   6  7  8
+> > ;; 11  2  9  ||   9 10 11
+> 8c9
+> < (define (problem p3-3-puzzle-problem-100-1390833173302856514)
+> ---
+> > (define (problem 3-4-puzzle-problem-200-1390833255931237328)
+> 11,12c12,13
+> <     t1 t2 t3 t4 t5 t6 t7 t8
+> <     p1 p2 p3
+> ---
+> >     t1 t2 t3 t4 t5 t6 t7 t8 t9 t10 t11
+> >     p1 p2 p3 p4
+> 23a25,27
+> >     (tile t9)
+> >     (tile t10)
+> >     (tile t11)
+> 31a36
+> >     (yposition p4)
+> 33,34c38,39
+> <     (inc p1 p2) (inc p2 p3)
+> <     (dec p2 p1) (dec p3 p2)
+> ---
+> >     (inc p1 p2) (inc p2 p3) (inc p3 p4)
+> >     (dec p2 p1) (dec p3 p2) (dec p4 p3)
+> 36c41
+> <     (at t7 p1 p1)
+> ---
+> >     (at t1 p1 p1)
+> 38,44c43,52
+> <     (at t8 p3 p1)
+> <     (at t2 p1 p2)
+> <     (at t4 p2 p2)
+> <     (at t1 p3 p2)
+> <     (at t6 p1 p3)
+> <     (blank p2 p3)
+> <     (at t3 p3 p3)
+> ---
+> >     (at t3 p3 p1)
+> >     (at t4 p1 p2)
+> >     (at t6 p2 p2)
+> >     (blank p3 p2)
+> >     (at t8 p1 p3)
+> >     (at t7 p2 p3)
+> >     (at t10 p3 p3)
+> >     (at t11 p1 p4)
+> >     (at t2 p2 p4)
+> >     (at t9 p3 p4)
+> 56a65,67
+> >       (at t9 p1 p4)
+> >       (at t10 p2 p4)
+> >       (at t11 p3 p4)
+> DONE with 3-4-puzzle-problem-200-04.pddl
+> ------------------------------------------------------------
+> BEGIN WITH 3-4-puzzle-problem-200-05.pddl
+> 1c1
+> < ;; Unsolvable instance of the (3x3)-Puzzle.
+> ---
+> > ;; Unsolvable instance of the (3x4)-Puzzle.
+> 4,6c4,7
+> < ;; 7 5 8  ||  0 1 2
+> < ;; 2 4 1  ||  3 4 5
+> < ;; 6 0 3  ||  6 7 8
+> ---
+> > ;;  2  5  3  ||   0  1  2
+> > ;;  7  1  4  ||   3  4  5
+> > ;;  9  8  0  ||   6  7  8
+> > ;;  6 10 11  ||   9 10 11
+> 8c9
+> < (define (problem p3-3-puzzle-problem-100-1390833173302856514)
+> ---
+> > (define (problem 3-4-puzzle-problem-200-1390833255937902044)
+> 11,12c12,13
+> <     t1 t2 t3 t4 t5 t6 t7 t8
+> <     p1 p2 p3
+> ---
+> >     t1 t2 t3 t4 t5 t6 t7 t8 t9 t10 t11
+> >     p1 p2 p3 p4
+> 23a25,27
+> >     (tile t9)
+> >     (tile t10)
+> >     (tile t11)
+> 31a36
+> >     (yposition p4)
+> 33,34c38,39
+> <     (inc p1 p2) (inc p2 p3)
+> <     (dec p2 p1) (dec p3 p2)
+> ---
+> >     (inc p1 p2) (inc p2 p3) (inc p3 p4)
+> >     (dec p2 p1) (dec p3 p2) (dec p4 p3)
+> 36c41
+> <     (at t7 p1 p1)
+> ---
+> >     (at t2 p1 p1)
+> 38,44c43,52
+> <     (at t8 p3 p1)
+> <     (at t2 p1 p2)
+> <     (at t4 p2 p2)
+> <     (at t1 p3 p2)
+> <     (at t6 p1 p3)
+> <     (blank p2 p3)
+> <     (at t3 p3 p3)
+> ---
+> >     (at t3 p3 p1)
+> >     (at t7 p1 p2)
+> >     (at t1 p2 p2)
+> >     (at t4 p3 p2)
+> >     (at t9 p1 p3)
+> >     (at t8 p2 p3)
+> >     (blank p3 p3)
+> >     (at t6 p1 p4)
+> >     (at t10 p2 p4)
+> >     (at t11 p3 p4)
+> 56a65,67
+> >       (at t9 p1 p4)
+> >       (at t10 p2 p4)
+> >       (at t11 p3 p4)
+> DONE with 3-4-puzzle-problem-200-05.pddl
+> ------------------------------------------------------------
+> BEGIN WITH 3-4-puzzle-problem-200-06.pddl
+> 1c1
+> < ;; Unsolvable instance of the (3x3)-Puzzle.
+> ---
+> > ;; Unsolvable instance of the (3x4)-Puzzle.
+> 4,6c4,7
+> < ;; 7 5 8  ||  0 1 2
+> < ;; 2 4 1  ||  3 4 5
+> < ;; 6 0 3  ||  6 7 8
+> ---
+> > ;;  3  4  1  ||   0  1  2
+> > ;; 11  2 10  ||   3  4  5
+> > ;;  9  6  5  ||   6  7  8
+> > ;;  7  0  8  ||   9 10 11
+> 8c9
+> < (define (problem p3-3-puzzle-problem-100-1390833173302856514)
+> ---
+> > (define (problem 3-4-puzzle-problem-200-1390833255944600139)
+> 11,12c12,13
+> <     t1 t2 t3 t4 t5 t6 t7 t8
+> <     p1 p2 p3
+> ---
+> >     t1 t2 t3 t4 t5 t6 t7 t8 t9 t10 t11
+> >     p1 p2 p3 p4
+> 23a25,27
+> >     (tile t9)
+> >     (tile t10)
+> >     (tile t11)
+> 31a36
+> >     (yposition p4)
+> 33,34c38,39
+> <     (inc p1 p2) (inc p2 p3)
+> <     (dec p2 p1) (dec p3 p2)
+> ---
+> >     (inc p1 p2) (inc p2 p3) (inc p3 p4)
+> >     (dec p2 p1) (dec p3 p2) (dec p4 p3)
+> 36,44c41,52
+> <     (at t7 p1 p1)
+> <     (at t5 p2 p1)
+> <     (at t8 p3 p1)
+> <     (at t2 p1 p2)
+> <     (at t4 p2 p2)
+> <     (at t1 p3 p2)
+> <     (at t6 p1 p3)
+> <     (blank p2 p3)
+> <     (at t3 p3 p3)
+> ---
+> >     (at t3 p1 p1)
+> >     (at t4 p2 p1)
+> >     (at t1 p3 p1)
+> >     (at t11 p1 p2)
+> >     (at t2 p2 p2)
+> >     (at t10 p3 p2)
+> >     (at t9 p1 p3)
+> >     (at t6 p2 p3)
+> >     (at t5 p3 p3)
+> >     (at t7 p1 p4)
+> >     (blank p2 p4)
+> >     (at t8 p3 p4)
+> 56a65,67
+> >       (at t9 p1 p4)
+> >       (at t10 p2 p4)
+> >       (at t11 p3 p4)
+> DONE with 3-4-puzzle-problem-200-06.pddl
+> ------------------------------------------------------------
+> BEGIN WITH 3-4-puzzle-problem-200-07.pddl
+> 1c1
+> < ;; Unsolvable instance of the (3x3)-Puzzle.
+> ---
+> > ;; Unsolvable instance of the (3x4)-Puzzle.
+> 4,6c4,7
+> < ;; 7 5 8  ||  0 1 2
+> < ;; 2 4 1  ||  3 4 5
+> < ;; 6 0 3  ||  6 7 8
+> ---
+> > ;;  7  4  3  ||   0  1  2
+> > ;;  5  1  2  ||   3  4  5
+> > ;;  0 10  9  ||   6  7  8
+> > ;;  6 11  8  ||   9 10 11
+> 8c9
+> < (define (problem p3-3-puzzle-problem-100-1390833173302856514)
+> ---
+> > (define (problem 3-4-puzzle-problem-200-1390833255951311199)
+> 11,12c12,13
+> <     t1 t2 t3 t4 t5 t6 t7 t8
+> <     p1 p2 p3
+> ---
+> >     t1 t2 t3 t4 t5 t6 t7 t8 t9 t10 t11
+> >     p1 p2 p3 p4
+> 23a25,27
+> >     (tile t9)
+> >     (tile t10)
+> >     (tile t11)
+> 31a36
+> >     (yposition p4)
+> 33,34c38,39
+> <     (inc p1 p2) (inc p2 p3)
+> <     (dec p2 p1) (dec p3 p2)
+> ---
+> >     (inc p1 p2) (inc p2 p3) (inc p3 p4)
+> >     (dec p2 p1) (dec p3 p2) (dec p4 p3)
+> 37,44c42,52
+> <     (at t5 p2 p1)
+> <     (at t8 p3 p1)
+> <     (at t2 p1 p2)
+> <     (at t4 p2 p2)
+> <     (at t1 p3 p2)
+> <     (at t6 p1 p3)
+> <     (blank p2 p3)
+> <     (at t3 p3 p3)
+> ---
+> >     (at t4 p2 p1)
+> >     (at t3 p3 p1)
+> >     (at t5 p1 p2)
+> >     (at t1 p2 p2)
+> >     (at t2 p3 p2)
+> >     (blank p1 p3)
+> >     (at t10 p2 p3)
+> >     (at t9 p3 p3)
+> >     (at t6 p1 p4)
+> >     (at t11 p2 p4)
+> >     (at t8 p3 p4)
+> 56a65,67
+> >       (at t9 p1 p4)
+> >       (at t10 p2 p4)
+> >       (at t11 p3 p4)
+> DONE with 3-4-puzzle-problem-200-07.pddl
+> ------------------------------------------------------------
+> BEGIN WITH 3-4-puzzle-problem-200-08.pddl
+> 1c1
+> < ;; Unsolvable instance of the (3x3)-Puzzle.
+> ---
+> > ;; Unsolvable instance of the (3x4)-Puzzle.
+> 4,6c4,7
+> < ;; 7 5 8  ||  0 1 2
+> < ;; 2 4 1  ||  3 4 5
+> < ;; 6 0 3  ||  6 7 8
+> ---
+> > ;;  5  3  2  ||   0  1  2
+> > ;; 10  7  6  ||   3  4  5
+> > ;;  0  8  9  ||   6  7  8
+> > ;;  1 11  4  ||   9 10 11
+> 8c9
+> < (define (problem p3-3-puzzle-problem-100-1390833173302856514)
+> ---
+> > (define (problem 3-4-puzzle-problem-200-1390833255957939108)
+> 11,12c12,13
+> <     t1 t2 t3 t4 t5 t6 t7 t8
+> <     p1 p2 p3
+> ---
+> >     t1 t2 t3 t4 t5 t6 t7 t8 t9 t10 t11
+> >     p1 p2 p3 p4
+> 23a25,27
+> >     (tile t9)
+> >     (tile t10)
+> >     (tile t11)
+> 31a36
+> >     (yposition p4)
+> 33,34c38,39
+> <     (inc p1 p2) (inc p2 p3)
+> <     (dec p2 p1) (dec p3 p2)
+> ---
+> >     (inc p1 p2) (inc p2 p3) (inc p3 p4)
+> >     (dec p2 p1) (dec p3 p2) (dec p4 p3)
+> 36,44c41,52
+> <     (at t7 p1 p1)
+> <     (at t5 p2 p1)
+> <     (at t8 p3 p1)
+> <     (at t2 p1 p2)
+> <     (at t4 p2 p2)
+> <     (at t1 p3 p2)
+> <     (at t6 p1 p3)
+> <     (blank p2 p3)
+> <     (at t3 p3 p3)
+> ---
+> >     (at t5 p1 p1)
+> >     (at t3 p2 p1)
+> >     (at t2 p3 p1)
+> >     (at t10 p1 p2)
+> >     (at t7 p2 p2)
+> >     (at t6 p3 p2)
+> >     (blank p1 p3)
+> >     (at t8 p2 p3)
+> >     (at t9 p3 p3)
+> >     (at t1 p1 p4)
+> >     (at t11 p2 p4)
+> >     (at t4 p3 p4)
+> 56a65,67
+> >       (at t9 p1 p4)
+> >       (at t10 p2 p4)
+> >       (at t11 p3 p4)
+> DONE with 3-4-puzzle-problem-200-08.pddl
+> ------------------------------------------------------------
+> BEGIN WITH 3-4-puzzle-problem-200-09.pddl
+> 1c1
+> < ;; Unsolvable instance of the (3x3)-Puzzle.
+> ---
+> > ;; Unsolvable instance of the (3x4)-Puzzle.
+> 4,6c4,7
+> < ;; 7 5 8  ||  0 1 2
+> < ;; 2 4 1  ||  3 4 5
+> < ;; 6 0 3  ||  6 7 8
+> ---
+> > ;;  2  9  1  ||   0  1  2
+> > ;;  5  4  7  ||   3  4  5
+> > ;;  6 10  3  ||   6  7  8
+> > ;; 11  8  0  ||   9 10 11
+> 8c9
+> < (define (problem p3-3-puzzle-problem-100-1390833173302856514)
+> ---
+> > (define (problem 3-4-puzzle-problem-200-1390833255964693529)
+> 11,12c12,13
+> <     t1 t2 t3 t4 t5 t6 t7 t8
+> <     p1 p2 p3
+> ---
+> >     t1 t2 t3 t4 t5 t6 t7 t8 t9 t10 t11
+> >     p1 p2 p3 p4
+> 23a25,27
+> >     (tile t9)
+> >     (tile t10)
+> >     (tile t11)
+> 31a36
+> >     (yposition p4)
+> 33,34c38,39
+> <     (inc p1 p2) (inc p2 p3)
+> <     (dec p2 p1) (dec p3 p2)
+> ---
+> >     (inc p1 p2) (inc p2 p3) (inc p3 p4)
+> >     (dec p2 p1) (dec p3 p2) (dec p4 p3)
+> 36,39c41,44
+> <     (at t7 p1 p1)
+> <     (at t5 p2 p1)
+> <     (at t8 p3 p1)
+> <     (at t2 p1 p2)
+> ---
+> >     (at t2 p1 p1)
+> >     (at t9 p2 p1)
+> >     (at t1 p3 p1)
+> >     (at t5 p1 p2)
+> 41c46
+> <     (at t1 p3 p2)
+> ---
+> >     (at t7 p3 p2)
+> 43c48
+> <     (blank p2 p3)
+> ---
+> >     (at t10 p2 p3)
+> 44a50,52
+> >     (at t11 p1 p4)
+> >     (at t8 p2 p4)
+> >     (blank p3 p4)
+> 56a65,67
+> >       (at t9 p1 p4)
+> >       (at t10 p2 p4)
+> >       (at t11 p3 p4)
+> DONE with 3-4-puzzle-problem-200-09.pddl
+> ------------------------------------------------------------
+> BEGIN WITH 3-4-puzzle-problem-200-10.pddl
+> 1c1
+> < ;; Unsolvable instance of the (3x3)-Puzzle.
+> ---
+> > ;; Unsolvable instance of the (3x4)-Puzzle.
+> 4,6c4,7
+> < ;; 7 5 8  ||  0 1 2
+> < ;; 2 4 1  ||  3 4 5
+> < ;; 6 0 3  ||  6 7 8
+> ---
+> > ;;  7  1  3  ||   0  1  2
+> > ;; 10  4  6  ||   3  4  5
+> > ;; 11  9  0  ||   6  7  8
+> > ;;  8  2  5  ||   9 10 11
+> 8c9
+> < (define (problem p3-3-puzzle-problem-100-1390833173302856514)
+> ---
+> > (define (problem 3-4-puzzle-problem-200-1390833255971420774)
+> 11,12c12,13
+> <     t1 t2 t3 t4 t5 t6 t7 t8
+> <     p1 p2 p3
+> ---
+> >     t1 t2 t3 t4 t5 t6 t7 t8 t9 t10 t11
+> >     p1 p2 p3 p4
+> 23a25,27
+> >     (tile t9)
+> >     (tile t10)
+> >     (tile t11)
+> 31a36
+> >     (yposition p4)
+> 33,34c38,39
+> <     (inc p1 p2) (inc p2 p3)
+> <     (dec p2 p1) (dec p3 p2)
+> ---
+> >     (inc p1 p2) (inc p2 p3) (inc p3 p4)
+> >     (dec p2 p1) (dec p3 p2) (dec p4 p3)
+> 37,39c42,44
+> <     (at t5 p2 p1)
+> <     (at t8 p3 p1)
+> <     (at t2 p1 p2)
+> ---
+> >     (at t1 p2 p1)
+> >     (at t3 p3 p1)
+> >     (at t10 p1 p2)
+> 41,44c46,52
+> <     (at t1 p3 p2)
+> <     (at t6 p1 p3)
+> <     (blank p2 p3)
+> <     (at t3 p3 p3)
+> ---
+> >     (at t6 p3 p2)
+> >     (at t11 p1 p3)
+> >     (at t9 p2 p3)
+> >     (blank p3 p3)
+> >     (at t8 p1 p4)
+> >     (at t2 p2 p4)
+> >     (at t5 p3 p4)
+> 56a65,67
+> >       (at t9 p1 p4)
+> >       (at t10 p2 p4)
+> >       (at t11 p3 p4)
+> DONE with 3-4-puzzle-problem-200-10.pddl
+> ------------------------------------------------------------
+> BEGIN WITH domain.pddl
+> 1,59c1,52
+> < ;; Unsolvable instance of the (3x3)-Puzzle.
+> < ;;
+> < ;; Initial state:     Goal state:
+> < ;; 7 5 8  ||  0 1 2
+> < ;; 2 4 1  ||  3 4 5
+> < ;; 6 0 3  ||  6 7 8
+> < ;;
+> < (define (problem p3-3-puzzle-problem-100-1390833173302856514)
+> <   (:domain strips-sliding-tile)
+> <   (:objects
+> <     t1 t2 t3 t4 t5 t6 t7 t8
+> <     p1 p2 p3
+> <   )
+> < 
+> <   (:init
+> <     (tile t1)
+> <     (tile t2)
+> <     (tile t3)
+> <     (tile t4)
+> <     (tile t5)
+> <     (tile t6)
+> <     (tile t7)
+> <     (tile t8)
+> < 
+> <     (xposition p1)
+> <     (xposition p2)
+> <     (xposition p3)
+> < 
+> <     (yposition p1)
+> <     (yposition p2)
+> <     (yposition p3)
+> < 
+> <     (inc p1 p2) (inc p2 p3)
+> <     (dec p2 p1) (dec p3 p2)
+> < 
+> <     (at t7 p1 p1)
+> <     (at t5 p2 p1)
+> <     (at t8 p3 p1)
+> <     (at t2 p1 p2)
+> <     (at t4 p2 p2)
+> <     (at t1 p3 p2)
+> <     (at t6 p1 p3)
+> <     (blank p2 p3)
+> <     (at t3 p3 p3)
+> <   )
+> < 
+> <   (:goal
+> <     (and
+> <       (at t1 p2 p1)
+> <       (at t2 p3 p1)
+> <       (at t3 p1 p2)
+> <       (at t4 p2 p2)
+> <       (at t5 p3 p2)
+> <       (at t6 p1 p3)
+> <       (at t7 p2 p3)
+> <       (at t8 p3 p3)
+> <     )
+> <   )
+> < )
+> ---
+> > 
+> > ;; The sliding-tile puzzle (i.e. the eight/fifteen/twentyfour puzzle).
+> > ;; Tile positions are encoded by the predicate (at <tile> <x> <y>), i.e.
+> > ;; using one object for horizontal position and one for vertical (there's
+> > ;; a separate predicate for the position of the blank). The predicates
+> > ;; "inc" and "dec" encode addition/subtraction of positions.
+> > 
+> > ;; The instance files come in two flavors: The vanilla one uses the same
+> > ;; objects for both x and y coordinates, while the other (files that have
+> > ;; an "x" at the end of their name) uses different objects for x and y
+> > ;; coordinates; this is because some planners seem to require different
+> > ;; objects for each parameter of an operator.
+> > 
+> > (define (domain strips-sliding-tile)
+> >   (:requirements :strips)
+> >   (:predicates
+> >    (tile ?x) (xposition ?x) (yposition ?x)
+> >    (at ?t ?x ?y) (blank ?x ?y)
+> >    (inc ?p ?pp) (dec ?p ?pp))
+> > 
+> >   (:action move-up
+> >     :parameters (?t ?px ?py ?by)
+> >     :precondition (and
+> > 		   (tile ?t) (xposition ?px) (yposition ?py) (yposition ?by)
+> > 		   (dec ?by ?py) (blank ?px ?by) (at ?t ?px ?py))
+> >     :effect (and (not (blank ?px ?by)) (not (at ?t ?px ?py))
+> > 		 (blank ?px ?py) (at ?t ?px ?by)))
+> > 
+> >   (:action move-down
+> >     :parameters (?t ?px ?py ?by)
+> >     :precondition (and
+> > 		   (tile ?t) (xposition ?px) (yposition ?py) (yposition ?by)
+> > 		   (inc ?by ?py) (blank ?px ?by) (at ?t ?px ?py))
+> >     :effect (and (not (blank ?px ?by)) (not (at ?t ?px ?py))
+> > 		 (blank ?px ?py) (at ?t ?px ?by)))
+> > 
+> >   (:action move-left
+> >     :parameters (?t ?px ?py ?bx)
+> >     :precondition (and
+> > 		   (tile ?t) (xposition ?px) (yposition ?py) (xposition ?bx)
+> > 		   (dec ?bx ?px) (blank ?bx ?py) (at ?t ?px ?py))
+> >     :effect (and (not (blank ?bx ?py)) (not (at ?t ?px ?py))
+> > 		 (blank ?px ?py) (at ?t ?bx ?py)))
+> > 
+> >   (:action move-right
+> >     :parameters (?t ?px ?py ?bx)
+> >     :precondition (and
+> > 		   (tile ?t) (xposition ?px) (yposition ?py) (xposition ?bx)
+> > 		   (inc ?bx ?px) (blank ?bx ?py) (at ?t ?px ?py))
+> >     :effect (and (not (blank ?bx ?py)) (not (at ?t ?px ?py))
+> > 		 (blank ?px ?py) (at ?t ?bx ?py)))
+> >   )
+> DONE with domain.pddl
+> ------------------------------------------------------------
+> BEGIN WITH result
+DONE with result
+------------------------------------------------------------
