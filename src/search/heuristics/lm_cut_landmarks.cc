@@ -331,4 +331,16 @@ bool LandmarkCutLandmarks::compute_landmarks(
     }
     return false;
 }
+
+vector<pair<int, int>> LandmarkCutLandmarks::get_unreachable_facts() const {
+    vector<pair<int, int>> unreachable_facts;
+    for (size_t var = 0; var < propositions.size(); ++var) {
+        for (size_t value = 0; value < propositions[var].size(); ++value) {
+            if (propositions[var][value].status == UNREACHED) {
+                unreachable_facts.push_back({static_cast<int>(var), static_cast<int>(value)});
+            }
+        }
+    }
+    return unreachable_facts;
+}
 }

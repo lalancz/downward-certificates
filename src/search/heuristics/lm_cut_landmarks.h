@@ -8,6 +8,7 @@
 #include <cassert>
 #include <functional>
 #include <memory>
+#include <utility>
 #include <vector>
 
 namespace lm_cut_heuristic {
@@ -104,6 +105,8 @@ public:
     */
     bool compute_landmarks(const State &state, const CostCallback &cost_callback,
                            const LandmarkCallback &landmark_callback);
+
+    std::vector<std::pair<int, int>> get_unreachable_facts() const;
 };
 
 inline void RelaxedOperator::update_h_max_supporter() {
