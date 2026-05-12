@@ -6,7 +6,9 @@
 
 #include "../certificates/cudd_interface.h"
 
+#include <map>
 #include <memory>
+#include <set>
 #include <vector>
 
 class Evaluator;
@@ -40,6 +42,12 @@ class EagerSearch : public SearchAlgorithm {
     std::ofstream unsolvability_certificate_hints;
     bool verify_optimality;
     std::shared_ptr<Evaluator> h_evaluator; // only set for A*, used by opt certs
+    
+    std::vector<std::pair<int, int>> landmark_facts;
+    std::map<std::pair<int, int>, std::vector<StateID>> states_by_landmark_fact;
+    
+    void compute_landmarks();
+    bool check_landmark_deadness(const std::set<int> &dead_state_ids) const;
 
 protected:
     virtual void initialize() override;

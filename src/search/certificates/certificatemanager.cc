@@ -288,6 +288,12 @@ Judgment CertificateManager::apply_rule_cg(const Judgment &goal_dead) {
     certstream << "k " << new_kid << "u cg " << goal_dead.id << "\n";
     return Judgment(new_kid);
 }
+Judgment CertificateManager::apply_rule_fact_landmark_dead() {
+    int new_kid = get_new_knowledgeid();
+    // TODO: properly encode the landmark in the rule
+    certstream << "landmark dead" << "\n";
+    return Judgment(new_kid);
+}
 
 
 Judgment CertificateManager::apply_rule_ec() {

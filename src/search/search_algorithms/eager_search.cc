@@ -7,6 +7,7 @@
 
 #include "../algorithms/ordered_set.h"
 #include "../plugins/options.h"
+#include "../heuristics/lm_cut_landmarks.h"
 #include "../task_utils/successor_generator.h"
 #include "../utils/logging.h"
 
@@ -16,6 +17,7 @@
 #include <cassert>
 #include <cstdlib>
 #include <deque>
+#include <map>
 #include <memory>
 #include <optional>
 #include <set>
@@ -581,6 +583,71 @@ void EagerSearch::write_unsolvability_certificate() {
 
 }
 
+void EagerSearch::compute_landmarks() {
+    lm_cut_heuristic::LandmarkCutLandmarks lm_landmarks(task_proxy);
+    lm_landmarks.compute_landmarks(state_registry.get_initial_state(), nullptr, nullptr);
+    std::set<std::pair<int, int>> seen_facts;
+
+    std::vector<std::pair<int, int>> lm_cut_facts = lm_landmarks.get_unreachable_facts();
+    
+    for (const auto &fact : lm_cut_facts) {
+        if (seen_facts.insert(fact).second) {
+            landmark_facts.push_back(fact);
+            states_by_landmark_fact[fact] = std::vector<StateID>();
+        }
+    }
+
+    for (FactProxy goal_fact : task_proxy.get_goals()) {
+        std::pair<int, int> goal_pair = {goal_fact.get_variable().get_id(), goal_fact.get_value()};
+        if (seen_facts.insert(goal_pair).second) {
+            landmark_facts.push_back(goal_pair);
+            states_by_landmark_fact[goal_pair] = std::vector<StateID>();
+        }
+    }
+
+    for (StateID state_id : state_registry) {
+        const State &state = state_registry.lookup_state(state_id);
+        SearchNode node = search_space.get_node(state);
+        if (node.is_new())
+            continue;
+    
+        for (FactProxy fact : state) {
+            std::pair<int, int> key(fact.get_variable().get_id(), fact.get_value());
+            auto fact_entry = states_by_landmark_fact.find(key);
+            if (fact_entry != states_by_landmark_fact.end()) {
+                fact_entry->second.push_back(state_id);
+            }
+        }
+    }
+}
+
+bool EagerSearch::check_landmark_deadness(const std::set<int> &dead_state_ids) const {
+    for (const auto &fact : landmark_facts) {
+        auto fact_entry = states_by_landmark_fact.find(fact);
+        
+        if (fact_entry == states_by_landmark_fact.end() || fact_entry->second.empty()) {
+            continue; 
+        }
+
+        const std::vector<StateID> &supporting_states = fact_entry->second;
+        int dead_count = 0;
+        
+        for (const StateID &sid : supporting_states) {
+            if (dead_state_ids.find(sid.get_value()) != dead_state_ids.end()) {
+                dead_count++;
+            }
+        }
+        
+        bool all_dead = (dead_count == (int) supporting_states.size());
+        
+        if (all_dead) {
+            return true;
+        }
+    }
+    
+    return false;
+}
+
 void EagerSearch::write_unsolvability_proof() {
     double writing_start = utils::g_timer();
     CertificateManager certmgr(certificate_directory, task);
@@ -588,6 +655,8 @@ void EagerSearch::write_unsolvability_proof() {
     for (size_t i = 0; i < varorder.size(); ++i) {
         varorder[i] = i;
     }
+
+    compute_landmarks();
 
     /*
       TODO: asking if the initial node is new seems wrong, but that is how the search handles a dead initial state.
@@ -631,6 +700,7 @@ void EagerSearch::write_unsolvability_proof() {
 
     CuddManager manager(task);
     std::vector<StateID> dead_ends;
+    std::set<int> dead_state_ids;
     int dead_end_amount = statistics.get_dead_ends();
     dead_ends.reserve(dead_end_amount);
 
@@ -656,6 +726,18 @@ void EagerSearch::write_unsolvability_proof() {
         if (search_space.get_node(state).is_dead_end()) {
             dead.lor(statebdd);
             dead_ends.push_back(id);
+            dead_state_ids.insert(id.get_value());
+            
+            bool is_dead = check_landmark_deadness(dead_state_ids);
+            if (is_dead) {
+                certmgr.apply_rule_fact_landmark_dead();
+                log << "Landmark became dead" << std::endl;
+                write_certificate_task_file(varorder);
+                double writing_end = utils::g_timer();
+                std::cout << "Time for writing unsolvability proof: "
+                        << writing_end - writing_start << std::endl;
+                return;
+            }
 
             EvaluationContext eval_context(state,
                                            0,

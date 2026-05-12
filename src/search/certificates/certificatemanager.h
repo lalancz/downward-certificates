@@ -152,6 +152,7 @@ public:
 
     Judgment apply_rule_ci(const Judgment &init_dead);
     Judgment apply_rule_cg(const Judgment &goal_dead);
+    Judgment apply_rule_fact_landmark_dead();
 
     Judgment apply_rule_ec();
     Judgment apply_rule_tc(const SetExpression set);

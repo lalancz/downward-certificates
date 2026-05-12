@@ -18,3 +18,4 @@ experiment/proof_verification.csv
 helve-main/*
 misc/tests/benchmarks/*
 .vscode/settings.json
+experiment/proof_sizes_rule.csv

@@ -59,7 +59,7 @@ with output_csv.open("w", newline="", encoding="utf-8") as f:
                 sys.executable,
                 str(repo_root / "fast-downward.py"),
                 "--overall-time-limit",
-                "30s",
+                "60s",
                 str(task),
                 "--search",
                 search_template.format(cert_dir=cert_dir.as_posix()),
