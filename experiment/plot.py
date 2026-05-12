@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-df = pd.read_csv('proof_sizes.csv')
+df = pd.read_csv('proof_sizes_rule.csv')
 
 df['lmcut_proof_size_bytes'] = pd.to_numeric(df['lmcut_proof_size_bytes'], errors='coerce')
 df['merge_and_shrink_proof_size_bytes'] = pd.to_numeric(df['merge_and_shrink_proof_size_bytes'], errors='coerce')
